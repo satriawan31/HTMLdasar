@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Ivan Satriawan -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logo chrome</title>
+    <style type="text/css">
+        body {
+            background: #F8F6F5;
+        }
+        .wrapper .icon {
+            height: 300px;
+            width: 300px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            border-radius: 100%;
+            box-shadow: 0 0 7px #222;
+            overflow: hidden;
+        }
+        .wrapper .icon:before {
+            content: "";
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            margin: auto;
+            border-radius: 100%;
+            background: #4C6EC1;
+            border: 10px #F8F6F5 solid;
+            z-index: 1000;
+        }
+
+        .wrapper .icon .chrome {
+            height: 150px;
+            width: 300px;
+            position: absolute;
+            left: 150px;
+            top: -60px;
+            background: rgb(238, 77, 59);
+            ;
+            z-index: 1000;
+        }
+
+        .wrapper .icon .merah {
+            background: rgb(238, 77, 59);
+            top: -60px;
+            z-index: 1;
+        }
+
+        .wrapper .icon .kuning {
+            background: rgb(248, 252, 9);
+            transform: rotate(120deg);
+            top: 20px;
+            right: -55px;
+            z-index: 3;
+        }
+
+        .wrapper .icon .hijau {
+            background: rgb(64, 148, 61);
+            transform: rotate(240deg);
+            top: 20px;
+            left: -55px;
+            z-index: 2;
+        }
+
+        .wrapper .icon .merah,
+        .wrapper .icon .kuning,
+        .wrapper .icon .hijau {
+            height: 147px;
+            width: 300px;
+            position: absolute;
+            transform-origin: center bottom;
+        }
+
+        .wrapper .icon .merah:after {
+            transform: rotate(-60deg);
+            left: -50px;
+            background: rgb(238, 77, 59);
+            ;
+        }
+
+        .wrapper .icon .kuning:after {
+            transform: rotate(-60deg);
+            left: -40px;
+            background: rgb(248, 252, 9);
+        }
+
+        .wrapper .icon .hijau:after {
+            transform: rotate(-60deg);
+            left: -50px;
+            background: rgb(64, 148, 61);
+            z-index: 1;
+        }
+
+        .wrapper .icon .merah:after,
+        .wrapper .icon .kuning:after,
+        .wrapper .icon .hijau:after {
+            content: "";
+            height: 147px;
+            width: 300px;
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <div class='wrapper'>
+        <div class='icon'>
+            <div class='chrome'></div>
+            <div class='merah'></div>
+            <div class ='kuning'></div>
+            <div class='hijau'></div>
+        </div>
+    </div>
+</body>
+
+</html>
